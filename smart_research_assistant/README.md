@@ -14,17 +14,17 @@ A Flask-based AI agent that searches research papers stored in TiDB Cloud using 
 
 ## Folder Structure
 smart_research_assistant/
-├─ app.py # Flask app
-├─ agent.py # AI agent workflow (query → search → summarize)
-├─ search.py # TiDB search logic
-├─ ingestion.py # Insert sample papers into TiDB
-├─ templates/
-│ └─ index.html # HTML form for user queries
-├─ requirements.txt
-├─ README.md
-├─ .gitignore
-├─ LICENSE
-├─ .env # NOT pushed to GitHub
+- app.py # Flask app
+- agent.py # AI agent workflow (query → search → summarize)
+- earch.py # TiDB search logic
+- ngestion.py # Insert sample papers into TiDB
+- templates/
+   - index.html # HTML form for user queries
+- requirements.txt
+- README.md
+-  .gitignore
+-  LICENSE
+-  env # NOT pushed to GitHub
 
 
 ---
@@ -94,4 +94,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
